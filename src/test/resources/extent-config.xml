@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extentreports>
+    <configuration>
+        <encoding>UTF-8</encoding>        
+        <protocol>https</protocol>
+        
+        <!-- Browser title -->
+        <documentTitle>Reflexion Health</documentTitle>
+        
+        <!-- Report title -->
+        <reportName>Reflexion Health Clinician App Report</reportName>
+        
+        <!-- Tone Theme for the Report -->
+        <theme>dark</theme>
+    </configuration>
+</extentreports>

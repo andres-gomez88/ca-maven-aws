@@ -1,0 +1,17 @@
+<suite name="Clinician App Chrome Test Plan" verbose="1">
+    <test name="Clinician App Chrome Test">
+        <parameter name="browserType" value="chrome"/>
+        <classes>            
+            <class name="TestCases.LoginTestCases"/> 
+            <class name="TestCases.ProtocolTestCases"/> 
+            <class name="TestCases.ForgotPassTestCases"/>
+            <class name="TestCases.HomePageTestCases"/> 
+            <class name="TestCases.ClinicianTestCases"/>
+            <class name="TestCases.NavBarFooterTestCases"/> 
+            <class name="TestCases.ChangePWTestCases"/> 
+            <class name="TestCases.SupportVideosTestCases"/>
+            <class name="TestCases.ProfileTestCases"/>   
+            <class name="TestCases.PatExtraOptnTestCases"/>
+        </classes>
+    </test>
+</suite>

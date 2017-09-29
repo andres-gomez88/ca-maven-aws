@@ -1,0 +1,10 @@
+<suite name="Add Data XML" verbose="1">
+
+    <test name="Data Test">
+        <parameter name="browserType" value="chrome"/>
+        <classes> 
+            <class name="TestCases.AddDataCases"/> 
+       </classes>
+    </test>
+    
+</suite>
