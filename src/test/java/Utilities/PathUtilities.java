@@ -10,7 +10,7 @@ public class PathUtilities {
     private static String chromeDriverPath = "/usr/local/share/chromedriver"; // "C:\\seleniumdriver\\chromedriver.exe";
     private static String excelPath = "C:\\Users\\User\\Documents\\NetBeansProjects\\CATest\\testData.xlsx";
     private static String extentRepPath = "C:\\Users\\User\\Documents\\Screenshots\\";
-    private static String extentConfPath = "C:\\Users\\User\\Documents\\NetBeansProjects\\camaven\\src\\test\\resources\\extent-config.xml";
+    private static String extentConfPath = "extent-config.xml";
     private static String screenshotFFPath = "C:\\Users\\User\\Documents\\Screenshots\\Firefox\\";
     private static String screenshotCHPath = "C:\\Users\\User\\Documents\\Screenshots\\Chrome\\";
 
