@@ -9,10 +9,10 @@ public class PathUtilities {
     private static String geckoDriverPath =   "geckodriver"; // "C:\\seleniumdriver\\geckodriver.exe";
     private static String chromeDriverPath = "/usr/local/share/chromedriver"; // "C:\\seleniumdriver\\chromedriver.exe";
     private static String excelPath = "C:\\Users\\User\\Documents\\NetBeansProjects\\CATest\\testData.xlsx";
-    private static String extentRepPath = "C:\\Users\\User\\Documents\\Screenshots\\";
-    private static String extentConfPath = "extent-config.xml";
-    private static String screenshotFFPath = "C:\\Users\\User\\Documents\\Screenshots\\Firefox\\";
-    private static String screenshotCHPath = "C:\\Users\\User\\Documents\\Screenshots\\Chrome\\";
+    private static String extentRepPath = "/usr/local/share/reports";
+    private static String extentConfPath = "/var/lib/jenkins/workspace/ca-maven-aws/src/test/resources/extent-config.xml";
+    private static String screenshotFFPath = "/usr/local/share/reports/firefox";
+    private static String screenshotCHPath = "/usr/local/share/reports/chrome";
 
     public static String getGeckoDriverPath() {
         return geckoDriverPath;
