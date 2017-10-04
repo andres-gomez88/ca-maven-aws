@@ -41,6 +41,4 @@ public class PathUtilities {
     public static String getScreenshotCHPath() {
         return screenshotCHPath;
     }
-
-
 }
