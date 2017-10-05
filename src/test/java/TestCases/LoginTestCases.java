@@ -59,7 +59,7 @@ public class LoginTestCases {
             driver = new ChromeDriver();
         }        
         driver.manage().timeouts().implicitlyWait(7, TimeUnit.SECONDS);
-        driver.manage().window().maximize();
+        //driver.manage().window().maximize();
         logInPgTest = new LogInPg(driver);
         resetpwLogInPgTest = new ResetpwLogInPg(driver);
         patientListPgTest = new PatientListPg(driver);
