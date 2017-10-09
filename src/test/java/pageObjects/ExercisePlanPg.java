@@ -1,8 +1,4 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package pageObjects;
 
 import org.apache.logging.log4j.LogManager;
@@ -11,10 +7,8 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
-/**
- *
- * @author Admin
- */
+
+
 public class ExercisePlanPg {
     WebDriver driver;
     private static final Logger log = LogManager.getLogger(ExercisePlanPg.class.getName());

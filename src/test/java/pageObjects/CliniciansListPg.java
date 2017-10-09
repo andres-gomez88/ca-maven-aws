@@ -1,8 +1,4 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package pageObjects;
 
 import com.aventstack.extentreports.ExtentTest;
@@ -18,10 +14,8 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import static Utilities.WaitUtilities.*;
-/**
- *
- * @author Admin
- */
+
+
 public class CliniciansListPg {
     WebDriver driver;
     List<WebElement> addClinElements;
