@@ -11,7 +11,7 @@ import static Utilities.WaitUtilities.*;
 
 
 public class ChangePwPg {
-    WebDriver driver;
+    private WebDriver driver;
     private static final Logger log = LogManager.getLogger(ChangePwPg.class.getName());
     
     @FindBy(name = "password")

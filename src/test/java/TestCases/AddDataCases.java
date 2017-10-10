@@ -19,17 +19,17 @@ import pageObjects.*;
 
 public class AddDataCases {
     private static final Logger log = LogManager.getLogger(AddDataCases.class.getName()); //Log4j object
-    WebDriver driver; // Selenium object    
+    private WebDriver driver; // Selenium object    
     /**
      * The Page Object variables. Each variable contains the elements of the specific page
      * with it's accompanied methods
      */
-    LogInPg logInPgTest;
-    NavBarFooterPg navBarFooterPgTest;
-    AddPatientPg addPatientPgTest;
-    PatientListPg patientListPgTest;
-    CliniciansListPg cliniciansListPgTest;
-    ProtocolsListPg protocolsListPgTest;
+    private LogInPg logInPgTest;
+    private NavBarFooterPg navBarFooterPgTest;
+    private AddPatientPg addPatientPgTest;
+    private PatientListPg patientListPgTest;
+    private CliniciansListPg cliniciansListPgTest;
+    private ProtocolsListPg protocolsListPgTest;
     
     /**
      * DataProvider(testNG) methods these call the static function for reading the data

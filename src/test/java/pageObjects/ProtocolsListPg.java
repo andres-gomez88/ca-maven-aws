@@ -16,11 +16,11 @@ import static Utilities.WaitUtilities.*;
 
 
 public class ProtocolsListPg {
-    WebDriver driver;
-    CreateEditProtocolPg createEditProtocolPgTest;
+    private WebDriver driver;
+    private CreateEditProtocolPg createEditProtocolPgTest;
     private static final Logger log = LogManager.getLogger(ProtocolsListPg.class.getName());
-    List<WebElement> protocolElements;
-    ExtentTest reportTest;
+    private List<WebElement> protocolElements;
+    private ExtentTest reportTest;
     
     //Protocol Search Bar
     @FindBy(xpath = "//input[@ng-model='vm.query']")

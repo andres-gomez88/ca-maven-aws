@@ -11,7 +11,7 @@ import static Utilities.WaitUtilities.*;
 
 
 public class SupportPg {
-    WebDriver driver;
+    private WebDriver driver;
     private static final Logger log = LogManager.getLogger(SupportPg.class.getName());
     
     @FindBy(xpath = "html/body/div[2]/div/div/section[1]/div/div/input")

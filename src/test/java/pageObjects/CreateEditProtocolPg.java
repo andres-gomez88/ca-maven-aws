@@ -15,9 +15,9 @@ import static Utilities.WaitUtilities.*;
 
 
 public class CreateEditProtocolPg {
-    WebDriver driver;
+    private WebDriver driver;
     private static final Logger log = LogManager.getLogger(CreateEditProtocolPg.class.getName());
-    List<WebElement> createEdProtElements, savingProtElements;
+    private List<WebElement> createEdProtElements, savingProtElements;
     
     //Search Exercise and type
     @FindBy(xpath = "//div[@class='input-group search']/input")

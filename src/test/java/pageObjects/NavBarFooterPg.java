@@ -15,9 +15,9 @@ import static Utilities.WaitUtilities.*;
 
 
 public class NavBarFooterPg {
-    WebDriver driver;
-    PatientListPg patientListPgTest;
-    List<WebElement> navBarElements;
+    private WebDriver driver;
+    private PatientListPg patientListPgTest;
+    private List<WebElement> navBarElements;
     private static final Logger log = LogManager.getLogger(NavBarFooterPg.class.getName());
     
     //Navigation Bar    

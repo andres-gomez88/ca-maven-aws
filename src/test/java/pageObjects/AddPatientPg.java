@@ -15,8 +15,8 @@ import static Utilities.WaitUtilities.*;
 
 
 public class AddPatientPg {    
-    WebDriver driver;
-    List<WebElement> btnElements;
+    private  WebDriver driver;
+    private List<WebElement> btnElements;
     private static final Logger log = LogManager.getLogger(AddPatientPg.class.getName());
     
     //Patient Information

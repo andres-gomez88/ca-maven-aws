@@ -30,16 +30,14 @@ import pageObjects.*;
 
 public class ChangePWTestCases {
     private static final Logger log = LogManager.getLogger(ChangePWTestCases.class.getName());    
-    WebDriver driver;
-    LogInPg logInPgTest;
-    NavBarFooterPg navBarFooterPgTest;
-    ChangePwPg changePWPgTest;
-    PatientListPg patientListPgTest;
-    
-    public String methodName;
-    ExtentReports extent;
-    ExtentTest reportTest;
-    public int apiId;
+    private WebDriver driver;
+    private LogInPg logInPgTest;
+    private NavBarFooterPg navBarFooterPgTest;
+    private ChangePwPg changePWPgTest;
+    private PatientListPg patientListPgTest;    
+    private String methodName;
+    private ExtentReports extent;
+    private ExtentTest reportTest;
     
     @Parameters({"browserType", "apiId"})
     @BeforeClass

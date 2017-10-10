@@ -15,10 +15,10 @@ import static Utilities.WaitUtilities.*;
 
 
 public class LogInPg {    
-    WebDriver driver;
+    private WebDriver driver;
     private static final Logger log = LogManager.getLogger(LogInPg.class.getName());
-    List<WebElement> loginElements;
-    ExtentTest reportTest;
+    private List<WebElement> loginElements;
+    private ExtentTest reportTest;
     
     @FindBy(name = "username")
     WebElement emailTxtBox;

@@ -17,10 +17,10 @@ import static Utilities.WaitUtilities.*;
 
 
 public class CliniciansListPg {
-    WebDriver driver;
-    List<WebElement> addClinElements;
+    private WebDriver driver;
+    private List<WebElement> addClinElements;
     private static final Logger log = LogManager.getLogger(CliniciansListPg.class.getName());
-    ExtentTest reportTest;
+    private ExtentTest reportTest;
     
     //Clinician Search Bar
     @FindBy(xpath = "//input[@ng-model='vm.query']")

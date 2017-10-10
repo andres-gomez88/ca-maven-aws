@@ -17,10 +17,10 @@ import static Utilities.WaitUtilities.*;
 
 
 public class ResetpwLogInPg {
-    WebDriver driver;
+    private WebDriver driver;
     private static final Logger log = LogManager.getLogger(ResetpwLogInPg.class.getName());
-    List<WebElement> resetPwElements;
-    ExtentTest reportTest;
+    private List<WebElement> resetPwElements;
+    private ExtentTest reportTest;
     
     @FindBy(xpath = "//input[@name='email']")
     WebElement emailTxtBox;

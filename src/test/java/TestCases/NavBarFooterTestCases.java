@@ -30,14 +30,13 @@ import pageObjects.*;
 
 public class NavBarFooterTestCases {
     private static final Logger log = LogManager.getLogger(NavBarFooterTestCases.class.getName());    
-    WebDriver driver;
-    LogInPg logInPgTest;
-    NavBarFooterPg navBarFooterPgTest;
-    PatientListPg patientListPgTest;
-    
-    public String methodName;
-    ExtentReports extent;
-    ExtentTest reportTest;
+    private WebDriver driver;
+    private LogInPg logInPgTest;
+    private NavBarFooterPg navBarFooterPgTest;
+    private PatientListPg patientListPgTest;    
+    private String methodName;
+    private ExtentReports extent;
+    private ExtentTest reportTest;
     
     @Parameters({"browserType", "apiId"})
     @BeforeClass

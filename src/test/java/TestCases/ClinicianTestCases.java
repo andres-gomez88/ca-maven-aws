@@ -30,15 +30,14 @@ import pageObjects.*;
 
 public class ClinicianTestCases {
     private static final Logger log = LogManager.getLogger(ClinicianTestCases.class.getName());    
-    WebDriver driver;
-    LogInPg logInPgTest;
-    NavBarFooterPg navBarFooterPgTest;
-    PatientListPg patientListPgTest;
-    CliniciansListPg cliniciansListPgTest;
-    
-    public String methodName;
-    ExtentReports extent;
-    ExtentTest reportTest;
+    private WebDriver driver;
+    private LogInPg logInPgTest;
+    private NavBarFooterPg navBarFooterPgTest;
+    private PatientListPg patientListPgTest;
+    private CliniciansListPg cliniciansListPgTest;    
+    private String methodName;
+    private ExtentReports extent;
+    private ExtentTest reportTest;
     
     @Parameters({"browserType", "apiId"})
     @BeforeClass

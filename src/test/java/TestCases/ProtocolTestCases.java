@@ -30,15 +30,15 @@ import pageObjects.*;
 
 public class ProtocolTestCases {
     private static final Logger log = LogManager.getLogger(ProtocolTestCases.class.getName());
-    WebDriver driver;
-    LogInPg logInPgTest; 
-    NavBarFooterPg navBarFooterPgTest;
-    PatientListPg patientListPgTest;
-    ProtocolsListPg protocolsListPgTest;
-    CreateEditProtocolPg createEditProtocolPgTest;
-    public String methodName;
-    ExtentReports extent;
-    ExtentTest reportTest;
+    private WebDriver driver;
+    private LogInPg logInPgTest; 
+    private NavBarFooterPg navBarFooterPgTest;
+    private PatientListPg patientListPgTest;
+    private ProtocolsListPg protocolsListPgTest;
+    private CreateEditProtocolPg createEditProtocolPgTest;
+    private String methodName;
+    private ExtentReports extent;
+    private ExtentTest reportTest;
     
     @Parameters({"browserType", "apiId"})
     @BeforeClass

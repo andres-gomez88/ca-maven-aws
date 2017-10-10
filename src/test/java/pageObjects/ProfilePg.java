@@ -12,7 +12,7 @@ import static Utilities.WaitUtilities.*;
 
 
 public class ProfilePg {
-    WebDriver driver;
+    private WebDriver driver;
     private static final Logger log = LogManager.getLogger(ProfilePg.class.getName());
     
     @FindBy(xpath = "//*[@id='patient-profile']/section[1]/div[1]/div/a/i")

@@ -10,7 +10,7 @@ import org.openqa.selenium.support.PageFactory;
 
 
 public class TestSurveysPg {
-    WebDriver driver;
+    private WebDriver driver;
     private static final Logger log = LogManager.getLogger(TestSurveysPg.class.getName());
     
     //Patient Tab Navigation

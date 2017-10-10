@@ -1,7 +1,6 @@
 
 package pageObjects;
 
-
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
@@ -16,9 +15,8 @@ import static Utilities.WaitUtilities.*;
 
 
 public class PatientListPg {
-    WebDriver driver;
-    //NavBarFooterPg navBarFooterPgTest;
-    List<WebElement> patListElements;
+    private WebDriver driver;
+    private List<WebElement> patListElements;
     private static final Logger log = LogManager.getLogger(PatientListPg.class.getName());
         
     //Patient Search Bar

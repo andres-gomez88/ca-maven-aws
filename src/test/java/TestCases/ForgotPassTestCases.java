@@ -30,15 +30,12 @@ import pageObjects.*;
 
 public class ForgotPassTestCases {
     private static final Logger log = LogManager.getLogger(ForgotPassTestCases.class.getName());
-    WebDriver driver;
-    LogInPg logInPgTest;
-    ResetpwLogInPg resetpwLogInPgTest;
-    
-    private String invalidEmail =  "andres_580@hotmail.com";
-    public String methodName;
-    ExtentReports extent;
-    ExtentTest reportTest;
-    
+    private WebDriver driver;
+    private LogInPg logInPgTest;
+    private ResetpwLogInPg resetpwLogInPgTest;    
+    private String methodName;
+    private ExtentReports extent;
+    private ExtentTest reportTest;    
     
     @Parameters({"browserType", "apiId"})
     @BeforeClass

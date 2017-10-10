@@ -10,7 +10,7 @@ import org.openqa.selenium.support.PageFactory;
 
 
 public class CreateEditProgramPg {
-    WebDriver driver;
+    private WebDriver driver;
     private static final Logger log = LogManager.getLogger(CreateEditProgramPg.class.getName());
     
     @FindBy(xpath = "//*[@id='patient-summary']//div[1]/a/i")

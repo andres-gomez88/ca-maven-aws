@@ -10,7 +10,7 @@ import org.openqa.selenium.support.PageFactory;
 
 
 public class ExercisePlanPg {
-    WebDriver driver;
+    private WebDriver driver;
     private static final Logger log = LogManager.getLogger(ExercisePlanPg.class.getName());
     
     //Patient Tab Navigation
